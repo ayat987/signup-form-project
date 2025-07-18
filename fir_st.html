@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8"> 
+    <title> Memory Match Game</title>
+    <link rel ="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+        <h1>Sign Up</h1> 
+        <p >please fill in this form to create account </p>
+        <div class="form-container">
+        <form action="sucsess.html">
+            <label for="name "> Enter your name  </label><br>
+            <input type="text"id="name" name="name" ><br><br>
+             
+              <label for="gmail"> Enter your gmail  </label><br>
+            <input type="email" list="emailList" name="gmail" id="gmail">
+
+            <datalist id="emailList">
+
+                <option value="ex@gmail.com">
+ 
+                    <option value="email@yahoo.com">
+  
+                        <option value="test123@outlook.com">
+                        </datalist>
+           
+              <label for="password">password </label><br>
+            <input type="password"id="password" name="password"><br>
+          
+            <label>Gender:</label>
+                <div class="gender-options">
+  
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+  
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+                <br>
+            <label>field of interest : </label>
+            <select id="interest" name="interest">
+
+            <option disabled selected> Choose your interest </option>
+
+            <option value="design "> design </option>
+
+            <option value="programming">Programming</option>
+
+            <option value="marketing">Marketing</option>
+
+            <option value="ai">Artificial Intelligence</option>
+
+            <option value="other">Other</option>
+
+           </select>
+           <br><br>
+           <button> Sign Up</button>
+
+        </form>
+        </div>
+    </body>
+</html>
